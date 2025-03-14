@@ -66,6 +66,22 @@
 
 /* nav-bar  */
 
+marquee{
+    width: 100vw;
+    
+}
+marquee>span{
+    font-size: x-large;
+    margin-right: 30px;
+}
+
+/* marquee  */
+
+
+
+
+/* marquee  */
+
 /* banner  */
 
 .banner{
@@ -76,7 +92,7 @@
 
 .input-box{
     text-align: center;
-    margin: 150px 50px 50px 50px;
+    margin: 100px 50px 50px 50px;
 }
 
 input{
@@ -474,6 +490,16 @@ button{
     .contact-form input{
         font-size: 18px;
     }
+
+    /* banner  */
+    .input-box{
+        text-align: center;
+        margin: 50px 50px 50px 50px;
+    }
+    marquee>span{
+        font-size: large;
+        margin-right: 25px;
+    }
 }
 
 
@@ -528,7 +554,7 @@ button{
 
 .input-box{
     text-align: center;
-    margin: 100px 50px 50px 50px;
+    margin: 50px 50px 50px 50px;
 }
 
 input{
@@ -593,7 +619,11 @@ button{
        height: 120px;
    }
 }
-
+ /* banner  */
+ .input-box{
+    text-align: center;
+    margin: 50px 50px 50px 50px;
+}
 
 
 
@@ -668,7 +698,12 @@ button{
         font-weight: 200;
         text-align: center;
     }
+
 /* contact  */
+.contact-parent{
+    width: 100vw;
+    height: 80vh;
+}
 
 /* footer  */
 
@@ -679,9 +714,16 @@ button{
     font-size: 15px;
     font-weight: 0;
 }
+ /* banner  */
+ .input-box{
+    text-align: center;
+    margin: 50px 50px 50px 50px;
+}
 
-
-
+marquee>span{
+    font-size: x-large;
+    margin-right: 20px;
+}
 
 
 }
@@ -716,5 +758,10 @@ button{
     }
     .about-text{
         text-align: center;
+    }
+     /* banner  */
+     .input-box{
+        text-align: center;
+        margin: 50px 50px 50px 50px;
     }
 }
